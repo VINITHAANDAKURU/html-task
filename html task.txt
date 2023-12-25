@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <style>
+      {
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        background-color: burlywood;
+      }
+      h2{
+        color:black;
+      }
+    
+    </style>
+    <title>Travel reservation form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title"> Travel reservation form </h1>
+      <p> *denotes mandatory</p>
+      <label>Full Name*:</label><br/>
+      <input type="text"placeholder="Enter your name"/> </br>
+      <lable>Email*:</lable><br/>
+      <input type="text" placeholder="Enter your Email"/> </br>
+      <label>Select tour package*:</label><br/>
+      <select name="package"><br/>
+      <option value="goa">Goa</option>
+      <option value="kerela">kerela</option>
+      <option value ="tamilnadu">tamilnadu</option>
+      <loption value="bombay">bombay</option></select> <br/>
+      
+      
+      <label> Arrive date*:</label><br/>
+      <input type="datetime" placeholder="DD/MM/YY"><br/>
+      <label> Number of person*:</label><br/>
+      <input type"text" placeholder="Enter number of persons"><br/>
+      <label>What would you  want to avail*:</label><br/>
+      <label for ="Boarding">Boarding</label>
+      <input type="checkbox" value="Boarding"/> <br/>
+      <label for ="Fooding">Fooding</label>
+      <input type="checkbox" value="Fooding"/><br/>
+      
+       <label for ="Sight seeking">Sight seeking</label>
+      <input type="checkbox" value="sight seeking"/><br/>
+      <labe>Discount Coupon code:</labe><br/>
+      <input type="text" placeholder="UNKOWN_TYPE"/><br/>
+      <label>Terms and conditions*:</label><br/>
+      <input type="radio">
+      <label for="I agree">I agree</label>
+      <input type="radio">
+      <label for="I disagree">I disagree</label><br/>
+      <label></label>
+      <input type="text" placeholder="complete reservation">
+      <script src="script.js"></script>
+  </body>
+</html>
